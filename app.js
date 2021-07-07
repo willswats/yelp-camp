@@ -58,12 +58,6 @@ const store = MongoDBStore.create({
     }
 })
 
-// const store = new MongoDBStore({
-//     url: dbUrl,
-//     secret: 'thisshouldbeabettersecret',
-//     touchAfter: 24 * 60 * 60
-// });
-
 store.on('error', function (e) {
     console.log('Session store error', e)
 })
