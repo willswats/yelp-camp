@@ -52,6 +52,8 @@
                     <div class="col text-end">
                         <% if (campground.author) { %>
                         <p>Submitted by: <%=campground.author.username%></p>
+                        <% } else { %>
+                        <p>Submitted by: Admin</p>
                         <% } %>
                     </div>
                 </div>
