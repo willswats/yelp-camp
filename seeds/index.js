@@ -23,11 +23,10 @@ const sample = array => array[Math.floor(Math.random() * array.length)]
 
 const seedDB = async () => {
     await Campground.deleteMany({});
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 100; i++) {
         const random1000 = Math.floor(Math.random() * 1000);
         const price = Math.floor(Math.random() * 20) + 10;
         const camp = new Campground({
-            author: '60e5b66fa7c02500155e2fe4',
             location: `${cities[random1000].city}, ${cities[random1000].state}`,
             title: `${sample(descriptors)} ${sample(places)}`,
             description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui aperiam, nihil quisquam accusamus expedita deleniti, minima recusandae laborum adipisci molestias dolorum quam sapiente alias, cumque neque sunt eveniet doloribus voluptates!',
@@ -54,6 +53,3 @@ seedDB().then(() => {
     mongoose.connection.close()
 });
 
-// This file will delete all the docs in the campgrounds collection,
-// and then re-populate it with 50 docs with random data taken from 
-// cities.js and seedHelpers.js

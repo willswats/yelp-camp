@@ -49,7 +49,6 @@ app.use(mongoSanitize({
 }))
 
 const secret = process.env.SECRET || 'thisshouldbeabettersecret'
-
 const store = MongoDBStore.create({
     mongoUrl: dbUrl,
     touchAfter: 24 * 60 * 60,
@@ -70,7 +69,7 @@ const sessionConfig = {
     saveUninitialized: true,
     cookie: {
         httpOnly: true,
-        // secure: true,
+        secure: true,
         expires: Date.now() + 1000 * 60 * 60 * 24 * 7,
         maxAge: 1000 * 60 * 60 * 24 * 7
     }
@@ -79,6 +78,7 @@ const sessionConfig = {
 app.use(session(sessionConfig))
 app.use(flash())
 app.use(helmet())
+
 
 const scriptSrcUrls = [
     "https://api.tiles.mapbox.com/",
@@ -102,6 +102,7 @@ const connectSrcUrls = [
     "https://events.mapbox.com/",
 ];
 const fontSrcUrls = [];
+
 app.use(
     helmet.contentSecurityPolicy({
         directives: {
@@ -126,7 +127,6 @@ app.use(
 app.use(passport.initialize())
 app.use(passport.session())
 passport.use(new LocalStrategy(User.authenticate()))
-
 passport.serializeUser(User.serializeUser())
 passport.deserializeUser(User.deserializeUser())
 
