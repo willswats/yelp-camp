@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const cities = require('./cities');
+const images = require('./images')
 const { places, descriptors } = require('./seedHelpers')
 const Campground = require('../models/campground');
 
@@ -19,11 +20,20 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', () => {
     console.log('Database connected');
 })
+
 const sample = array => array[Math.floor(Math.random() * array.length)]
+
+function shuffleArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr
+}
 
 const seedDB = async () => {
     await Campground.deleteMany({});
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 200; i++) {
         const random1000 = Math.floor(Math.random() * 1000);
         const price = Math.floor(Math.random() * 20) + 10;
         const camp = new Campground({
@@ -35,16 +45,7 @@ const seedDB = async () => {
                 type: 'Point',
                 coordinates: [cities[random1000].longitude, cities[random1000].latitude]
             },
-            images: [
-                {
-                    url: "https://res.cloudinary.com/deoqtytv1/image/upload/v1625226980/YelpCamp/dino-reichmuth-5Rhl-kSRydQ-unsplash_c4cmgi.jpg",
-                    filename: "YelpCamp/dino-reichmuth-5Rhl-kSRydQ-unsplash_c4cmgi.jpg"
-                },
-                {
-                    url: "https://res.cloudinary.com/deoqtytv1/image/upload/v1625226973/YelpCamp/scott-goodwill-y8Ngwq34_Ak-unsplash_c3ydfk.jpg",
-                    filename: "YelpCamp/scott-goodwill-y8Ngwq34_Ak-unsplash_c3ydfk"
-                }
-            ]
+            images: shuffleArray(images)
         })
         await camp.save();
     }
