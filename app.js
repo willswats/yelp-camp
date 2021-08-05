@@ -66,6 +66,7 @@ const sessionConfig = {
     name: 'session',
     secret,
     resave: false,
+    proxy: true,
     saveUninitialized: true,
     cookie: {
         httpOnly: true,
