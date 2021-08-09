@@ -8,10 +8,6 @@ const ImageSchema = new Schema({
     filename: String,
 })
 
-ImageSchema.virtual('thumbnail').get(function () {
-    return this.url.replace('/upload', '/upload/w_150')
-})
-
 ImageSchema.virtual('cardImage').get(function () {
     return this.url.replace('/upload', '/upload/ar_4:3,c_crop')
 })
