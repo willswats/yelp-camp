@@ -25,6 +25,11 @@
     font-size: 1.5rem;
 }
 
+#home #small-text {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
 #home a {
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -41,6 +46,10 @@
 
     #home p {
         font-size: 1rem;
+    }
+
+    #home #small-text {
+        font-size: 12px;
     }
 }
 
@@ -163,11 +172,6 @@
 
 .flex-grow-1 {
     flex: 1;
-}
-
-.thumbnail {
-    min-height: 100%;
-    min-width: 100%;
 }
 
 .grey-border {

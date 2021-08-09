@@ -9,7 +9,7 @@ const ImageSchema = new Schema({
 })
 
 ImageSchema.virtual('cardImage').get(function () {
-    return this.url.replace('/upload', '/upload/ar_4:3,c_crop')
+    return this.url.replace('/upload', '/upload/c_crop,ar_4:3')
 })
 
 const opts = {
