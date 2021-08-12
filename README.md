@@ -33,7 +33,7 @@ Clone this repo to your desktop and run ```npm install``` to install all depende
 
 Create a ```.env``` file in the yelp-camp directory.
 
-Register a Cloudinary account and add your cloudinary cloud name, cloudinary key, and cloudinary secret under these keys:
+Register a Cloudinary account and add your cloudinary cloud name, cloudinary key, and cloudinary secret to the ```.env``` file under these keys:
 
 ```txt
 CLOUDINARY_CLOUD_NAME=
