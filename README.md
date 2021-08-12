@@ -11,12 +11,20 @@ Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 - [Yelp Camp](#yelp-camp)
   - [Table of Contents](#table-of-contents)
   - [General Information](#general-information)
+  - [Technologies Used](#technologies-used)
   - [Features](#features)
-  - [Get started](#get-started)
+  - [Setup](#setup)
+  - [Acknowledgements](#acknowledgements)
 
 ## General Information
 
-I built this project while following along with the Web Developer Bootcamp 2021 Udemy course. The app's purpose is to be a list of campgrounds which you can add to, or view details about each one, such as the reviews, the location it's in, and where it is on the map.
+I built this project while following along with [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) Udemy course. The app's purpose is to be a list of campgrounds which you can add to, or view details about each one, such as the reviews, the location it's in, and where it is on the map.
+
+## Technologies Used
+
+- Express
+- MongoDB
+- Mongoose
 
 ## Features
 
@@ -27,7 +35,12 @@ I built this project while following along with the Web Developer Bootcamp 2021 
 - View all the campgrounds on a cluster map
 - View the location of a singular campground on a map
 
-## Get started
+## Setup
+
+Requirements:
+
+- Node.js
+- MongoDB Shell
 
 Clone this repo to your desktop and run ```npm install``` to install all dependencies.
 
@@ -52,3 +65,7 @@ After the above steps, run MongoDB locally with `mongod`.
 Optionally you can run ```node seeds/index``` to seed the DB.
 
 You can then run ```npm start``` to start the application. You will then be able to access it at localhost:3000.
+
+## Acknowledgements
+
+- This project was based on the Yelp Camp tutorials in [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) Udemy course.
