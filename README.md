@@ -37,11 +37,6 @@ I built this project while following along with [The Web Developer Bootcamp 2021
 
 ## Setup
 
-Requirements:
-
-- Node.js
-- MongoDB Shell
-
 Clone this repo to your desktop and run ```npm install``` to install all dependencies.
 
 Create a ```.env``` file in the yelp-camp directory.
@@ -68,4 +63,4 @@ You can then run ```npm start``` to start the application. You will then be able
 
 ## Acknowledgements
 
-- This project was based on the Yelp Camp tutorials in [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) Udemy course.
+This project was based on the Yelp Camp tutorials in [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) Udemy course.
