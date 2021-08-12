@@ -1,7 +1,8 @@
 
 # Yelp Camp
 
-An Express web application which allows you to create an account which you can use to add campgrounds, upload images, create reviews, and more, styled with bootstrap and css.
+An Express web application featuring full CRUD functionality, as well as image uploading capabilities, styled with Bootstrap and CSS. Browse campgrounds and view their details, or with an account you can add campgrounds, upload images, make reviews, and much more. Live project [_here_](https://to-do-app-willswats.herokuapp.com/).
+
 Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 
 ## Table of Contents
@@ -15,16 +16,18 @@ Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 
 ## General Information
 
-I built this project while following along with [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) Udemy course. The app's purpose is to be a list of campgrounds which you can add to, or view details about each one, such as the reviews, the location it's in, and where it is on the map.
+I built this project while following along with [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course. The app's purpose is to be a list of campgrounds which you can add to, or view details about each one, such as the reviews, the location it's in, and where it is on the map.
 
 ## Features
 
-- Create your own account to start adding campgrounds
-- Edit or delete your own campgrounds
-- Optional images can be added to your campgrounds
-- Add reviews to campgrounds or delete them
-- View all the campgrounds on a cluster map
-- View the location of a singular campground on a map
+- Full CRUD functionality
+- Full statefulness through MongoDB
+- Account creation
+- Authentication
+- Authorization
+- Image uploads via cloudinary
+- Mapbox GL JS
+- Reviews
 
 ## Setup
 
@@ -52,4 +55,4 @@ After the above steps, run MongoDB locally with ```mongod``` and run ```npm star
 
 ## Acknowledgements
 
-This project was based on the Yelp Camp tutorials in [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) Udemy course.
+This project was based on the Yelp Camp tutorials in [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course.
