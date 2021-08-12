@@ -57,7 +57,7 @@ MAPBOX_TOKEN=
 
 After the above steps, run MongoDB locally with `mongod`.
 
-Optionally you can run ```node seeds/index``` to seed the DB.
+Optionally you can add your own uploaded cloudinary images into ```seeds/images.js``` and then you can run ```node seeds/index``` to seed the DB.
 
 You can then run ```npm start``` to start the application. You will then be able to access it at localhost:3000.
 
