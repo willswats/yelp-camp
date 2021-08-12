@@ -1,7 +1,7 @@
 
 # Yelp Camp
 
-An Express web application which allows you to add campgrounds, create reviews, create an account, upload images and more, styled with bootstrap and css.
+An Express web application which allows you to add campgrounds, create reviews, create an account, upload images, and more, styled with bootstrap and css.
 Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 
 ![yelp-camp-img](./public/imgs/yelp-camp.png)
