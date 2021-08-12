@@ -1,7 +1,7 @@
 
 # Yelp Camp
 
-An Express web application featuring full CRUD functionality, as well as image uploading capabilities, styled with Bootstrap and CSS. Browse campgrounds and view their details, or with an account you can add campgrounds, upload images, make reviews, and much more. Live project [_here_](https://to-do-app-willswats.herokuapp.com/).
+An Express web application featuring full CRUD functionality, as well as image uploading capabilities, styled with Bootstrap and CSS. Browse campgrounds and view their details, or with an account you can add campgrounds, upload images, make reviews, and much more.
 
 Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 
@@ -16,7 +16,7 @@ Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 
 ## General Information
 
-I built this project while following along with [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course. The app's purpose is to be a list of campgrounds which you can add to, or view details about each one, such as the reviews, the location it's in, and where it is on the map.
+I built this project while following along with [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course. The app is a demo for a real-life scenario of having a list of campgrounds which can be browsed, added to, edited, reviewed, etc.
 
 ## Features
 
@@ -55,4 +55,4 @@ After the above steps, run MongoDB locally with ```mongod``` and run ```npm star
 
 ## Acknowledgements
 
-This project was based on the Yelp Camp tutorials in [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course.
+This project was created while following along with the Yelp Camp tutorials in [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course.
