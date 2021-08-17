@@ -104,12 +104,6 @@
 
 /* Footer */
 
-#footer p {
-    font-size: 12px;
-    color: grey;
-    margin-bottom: 5px;
-}
-
 #footer img {
     width: 45px;
     margin: 5px 5px;
@@ -128,7 +122,7 @@
 #website-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     transition: 0.1s ease-in;
 }
 
