@@ -116,20 +116,6 @@
     transition: 0.1s ease-in;
 }
 
-#footer img {
-    width: 45px;
-    margin: 5px 5px 10px 5px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, .55);
-    transition: 0.1s ease-in;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 20px 0px, rgba(0, 0, 0, 0.2) 0px 4px 10px 0px;
-}
-
-#footer img:hover {
-    background-color: rgba(255, 255, 255, 1);
-    transition: 0.1s ease-in;
-}
-
 /* Flash */
 
 #flash {
