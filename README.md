@@ -16,7 +16,7 @@ Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 
 ## General Information
 
-I built this project while following along with [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course. The app is a demo for a real-life scenario of having a list of campgrounds which can be browsed, added to, edited, reviewed, etc.
+I built this project while following along with [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course. The app is a demo for a scenario of having a list of campgrounds which can be browsed, added to, edited, reviewed, etc.
 
 ## Features
 
