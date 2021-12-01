@@ -1,7 +1,7 @@
 
 # Yelp Camp
 
-An Express web application featuring full CRUD functionality, as well as image uploading capabilities, styled with Bootstrap and CSS. Browse campgrounds and view their details, or with an account you can add campgrounds, upload images, make reviews, and much more.
+An Express web application featuring full CRUD functionality, styled with Bootstrap and CSS. Browse campgrounds and view their details, or with an account you can add, edit and delete your own campgrounds, upload images, and make reviews.
 
 Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 
