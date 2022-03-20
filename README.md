@@ -1,7 +1,7 @@
 
 # Yelp Camp <!-- omit in toc -->
 
-An application for browsing campgrounds and their reviews.
+An application for browsing camp grounds and their reviews.
 
 Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 
