@@ -1,14 +1,12 @@
 
-# Yelp Camp
+# Yelp Camp <!-- omit in toc -->
 
 An application for browsing campgrounds and their reviews. With an account you can add, edit and delete campgrounds, upload images, or create reviews.
 
 Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-- [Yelp Camp](#yelp-camp)
-  - [Table of Contents](#table-of-contents)
   - [General Information](#general-information)
   - [Features](#features)
   - [Setup](#setup)
