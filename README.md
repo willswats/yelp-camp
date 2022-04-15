@@ -3,8 +3,6 @@
 
 An application for browsing camp grounds and their reviews.
 
-Live project [_here_](https://yelp-camp-willswats.herokuapp.com/).
-
 ## Table of Contents <!-- omit in toc -->
 
   - [General Information](#general-information)
