@@ -1,6 +1,6 @@
-# Yelp Camp <!-- omit in toc -->
+# Node Yelp Camp <!-- omit in toc -->
 
-An application for browsing camp grounds and their reviews.
+Yelp, but for camp grounds, built with Node.js, Express, and MongoDB.
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -11,7 +11,7 @@ An application for browsing camp grounds and their reviews.
 
 ## General Information
 
-I built this project while following along with [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course. The app is a demo for a scenario of having a list of campgrounds which can be browsed, added to, edited, reviewed, etc.
+I built this project while following along with [The Web Developer Bootcamp 2021](https://www.udemy.com/course/the-web-developer-bootcamp) course. In the application, you are able to browse, add, edit, and review fake camp grounds.
 
 ## Features
 
