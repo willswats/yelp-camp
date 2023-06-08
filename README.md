@@ -1,4 +1,4 @@
-# Node Yelp Camp <!-- omit in toc -->
+# Yelp Camp <!-- omit in toc -->
 
 Yelp, but for camp grounds, built with Node.js, Express, and MongoDB.
 
